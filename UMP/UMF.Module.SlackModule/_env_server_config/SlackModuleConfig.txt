@@ -1,0 +1,36 @@
+﻿#####################
+# Web.WebConfig
+#####################
+# 웹사용 유무
+WebEnabled = false
+
+# 로그 타입 None,NameOnly,Detail,Always
+WebLogType = None
+
+# URL
+WebURL = 
+
+WebPoolSize = 40
+
+# RequestMethodType GET,POST,STOR
+MethodType = GET
+
+PostContentsType = 
+
+PostKey = 
+
+StorID = 
+
+StorPW = 
+
+#####################
+# Slack API
+#####################
+# slack webhook channel
+Channel = 
+
+# 설정된 시간아에 동일한 메세지는 더이상 알림을 보내지 않음
+DuplicatedMsgTimeoutSeconds = 5
+
+# 사용유무
+SlackEnabled = false

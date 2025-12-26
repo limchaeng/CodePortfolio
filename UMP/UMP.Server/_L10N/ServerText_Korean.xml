@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataList version="0" data_id="ServerText" language="Korean" created_time="" culture="ko-KR" wordwrap="0" >
+	<System>
+		<Data id="TimeFormat" IgnoreTagCheck="1">{0:M/d HH:mm} ~ {1:HH:mm} (UTC)</Data>
+		<Data id="TimeFormat2" IgnoreTagCheck="1">{0:M/d HH:mm}\n~ {1:M/d HH:mm} (UTC)</Data>
+		<Data id="Shutdown">현재 서버 점검중입니다.\n잠시 후에 이용해 주세요.\n{0}|{1}|true</Data>
+		<Data id="VersionDisallow">현재 버전은 사용할수 없습니다.</Data>
+		<Data id="VersionExpire">현재 버전은 사용이 종료되었습니다.</Data>
+		<Data id="VersionUpdate">새 버전이 나왔습니다.\n업데이트 하셔야 이용하실 수 있습니다.|{0}</Data>
+		<Data id="VersionMax">해당 버전은 아직 접속할수 없습니다.\n잠시 후에 다시 시도해 주세요.</Data>
+		<Data id="Maintenance">현재 서버 점검중입니다.\n잠시 후에 이용해 주세요.\n{0}|{1}|true</Data>
+		<Data id="ClientLimit">현재 사용자가 너무 많습니다.\n잠시 후에 이용해 주세요.</Data>
+		<Data id="LoginWithdrawl">탈퇴등록된 계정입니다.</Data>
+		<Data id="LoginBlocked">현재 접속이 제한된 계정입니다.\n~ {0:yyyy.MM.dd}|{1}</Data>
+		<Data id="LoginIncorrectIDPW">아이디/비밀번호를 확인해 주세요</Data>
+	</System>
+	<Account>
+		<Data id="LoginDuplicated">다른 기기에서 로그인 하셔서 접속이 끊겼습니다.</Data>
+		<Data id="LoginRegistExistId">사용할수 없는 아이디 입니다.</Data>
+		<Data id="LoginRegistAccountNotFound">아이디/비밀번호를 확인해 주세요</Data>
+		<Data id="LoginRegistFailed">사용자 로그인에 실패했습니다.(CODE:{0})</Data>
+	</Account>
+</DataList>

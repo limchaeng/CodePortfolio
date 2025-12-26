@@ -1,0 +1,26 @@
+﻿//////////////////////////////////////////////////////////////////////////
+//
+// AppVerifyModuleClient
+// 
+// Created by LCY.
+//
+// Copyright 2022 FN
+// All rights reserved
+//
+//////////////////////////////////////////////////////////////////////////
+// Version 1.0
+//
+//////////////////////////////////////////////////////////////////////////
+#if UMCLIENT
+
+using UMF.Core.Module;
+
+namespace UMP.Module.AppVerifyModule
+{
+	public class AppVerifyModuleClient : ModuleCoreBase
+	{
+		public override string ModuleName => AppVerifyModuleCommon.MODULE_NAME;
+	}
+}
+
+#endif

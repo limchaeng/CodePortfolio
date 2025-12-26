@@ -1,0 +1,43 @@
+﻿#####################
+# Database
+#####################
+IsThrowSqlException = true
+
+# CoreLogType None, NameOnly, Detail, Always
+CoreLogType = Detail
+
+UseParallel = true
+
+UseConcurrentWaitQueue = true
+
+IgnoreConnectionException = true
+
+SqlExceptionNotify = true
+
+# 쿼리 응답 속도가 값보다 크면 알림
+QueryTooLongTimeMilli = 5000
+
+# DBMS LocalMDF, MSSql, MySql
+DBMS = LocalMDF
+
+HostIP =
+
+ID =
+
+Password =
+
+DatabaseName =
+
+PoolSize = 400
+
+CommandTimeout = 60
+
+Timeout = 10
+
+Async = true
+
+# MySql 사용시 캐릭터셋 설정
+CharacterSet =
+
+# custom
+CustomConnectionString = Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = |DataDirectory|\__LocalDB\UMPLocalDB.COMMON.mdf; Integrated Security = True

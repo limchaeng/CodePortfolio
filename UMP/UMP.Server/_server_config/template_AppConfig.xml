@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AppConfig TargetFrameRate="30" NetworkUnknownDisconnectIgnorePendingLogin="true" TBLSendEnable="true" TBLSendMaxByte="25000" ClientFrameRate="0" >
+	<Shutdown URL="" BeginTime="" EndTime="" TextKey="" >
+		<PerApp AppIdentifier="editor" URL="" TextKey="" />
+		<PerApp/>
+	</Shutdown>
+	<VersionInfo ServerVersion="{GAME_VERSION}" ClientUpdateText="" MaintenanceText="" MaxVersionText="" ExpireVersionText="" >
+		<PerApp AppIdentifier="editor" IsCheck="true" ClientVersion="{GAME_VERSION}" ClientRevision="0" MaxVersion="" MinVersion="" ClientUpdateLink="http://www.fournext.com" ExpireTime="" >
+			<Text ClientUpdateText="" MaintenanceText="" MaxVersionText="" ExpireVersionText="" />
+			<Review ReviewVersion="{REVIEW_VERSION}" LoginHost="" LoginPort="" />
+		</PerApp>
+		<PerApp />
+	</VersionInfo>
+	<MaintenanceWhitelist SecurityLoginLevel="1" IgnoreSecurityLevel="false" >
+		<IPADDR IP="192.168.0.1" />
+		<IPADDR IP="::ffff:192.168.0.1" />
+		<IPADDR IP="192.168.0.2" />
+		<IPADDR IP="::ffff:192.168.0.2" />
+		<IPADDR IP="192.168.0.3" />
+		<IPADDR IP="::ffff:192.168.0.3" />
+		<VERSION VER="" />
+		<VERSION/>
+		<APPID AppIdentifier="editor" />
+		<APPID/>
+	</MaintenanceWhitelist>
+	<URL>
+		<Data Type="TermsOfService" Url="" >
+			<Language Name="Korean" Url="" />
+		</Data>
+		<Data Type="PrivacyPolicy" Url="" />
+		<Data Type="GameGuide" Url="" />
+		<Data Type="Community" Url="" />
+		<Data Type="Support" Url="" />
+	</URL>
+	<AgreementConfirm Enabled="true" >
+		<Data Type="TermsOfService" Text="AgreementConfirm_Agreement" Link="" IsOption="false" Enabled="true" />
+		<Data Type="PrivacyPolicy" Text="AgreementConfirm_Privacy" Link="" IsOption="false" Enabled="true" />
+		<Data Type="RemotePush" Text="AgreementConfirm_RemotePush" Link="" IsOption="true" Enabled="true" />
+		<Data Type="NightRemotePush" Text="AgreementConfirm_NightRemotePush" Link="" IsOption="true" Enabled="true" />
+	</AgreementConfirm>
+</AppConfig>

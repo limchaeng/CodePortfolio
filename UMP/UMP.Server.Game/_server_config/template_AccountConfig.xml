@@ -1,0 +1,3 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AccountConfig ReloginTimeoutSeconds="600" UseMultiplePlayer="1" UseCommonLogin="true" >
+</AccountConfig>

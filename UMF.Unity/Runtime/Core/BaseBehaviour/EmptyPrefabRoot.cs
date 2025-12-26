@@ -1,0 +1,27 @@
+﻿//////////////////////////////////////////////////////////////////////////
+//
+// EmptyPrefabRoot
+// 
+// Created by LCY.
+//
+// Copyright 2025 FN
+// All rights reserved
+//
+//////////////////////////////////////////////////////////////////////////
+// Version 1.0
+//
+//////////////////////////////////////////////////////////////////////////
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace UMF.Unity
+{
+	public class EmptyPrefabRoot : PrefabRootBehaviour
+	{
+		public override void P_Init()	{ }
+
+		public override void P_UnInit() { }
+	}
+}

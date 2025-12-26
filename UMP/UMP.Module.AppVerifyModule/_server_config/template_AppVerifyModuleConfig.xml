@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AppVerifyModuleConfig NotifyToLogin="IOSJB|IOSLIB" RequestTypeFlag="KeySign|CRC|MD5|HackFile|Installer|IOSJB|IOSLIB" >
+	<Data AppIdentifier="editor" Enabled="false" RequestTypeFlag="KeySign|CRC|MD5|HackFile|Installer|IOSJB|IOSLIB" />
+	<Data />
+</AppVerifyModuleConfig>

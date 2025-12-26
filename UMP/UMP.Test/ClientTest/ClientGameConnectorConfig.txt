@@ -1,0 +1,42 @@
+﻿#####################
+# Connector
+#####################
+Host = 
+Port = 
+
+# Connector 와 Peer 간 연결정보에 포함되어 확인되는 문자
+VerifyString = UMPTEST
+
+# CoreLogType None,NameOnly,Detail,Always
+CoreLogType = Detail
+
+# eCheckEmptyHandlerType Log,Exception,Manual
+# 패킷핸들러가 없을때 발생하는 오류 타입
+CheckEmptyHandler = Exception
+
+SendBufferSize = 4096
+
+RecvBufferSize = 4096
+
+UseAsyncConnect = true
+
+ConnectTimeout = 5
+
+PingTime = 5
+
+PingCheckTime = 30
+
+# 패킷 암호화
+UseEncrypt = true
+
+# Datetime 패킷타입을 binary 로 사용하지 않고 double 형식으로 사용
+UseConvertDatetime = false
+
+# Datetim 패킷타입 쓰기시 타임존 무시 : UseConvertDatetime = false 일때 사용됨
+IgnoreTimeZone = true
+
+# 패킷의 프로토콜 버전 사용
+UseProtocolVersion = true
+
+# Host 대신에 IP 사용 IPv6 대응
+UseIPAddressInsteadHost = true

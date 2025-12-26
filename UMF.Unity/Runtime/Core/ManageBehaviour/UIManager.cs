@@ -1,0 +1,27 @@
+﻿//////////////////////////////////////////////////////////////////////////
+//
+// UIManager
+// 
+// Created by LCY.
+//
+// Copyright 2025 FN
+// All rights reserved
+//
+//////////////////////////////////////////////////////////////////////////
+// Version 1.0
+//
+//////////////////////////////////////////////////////////////////////////
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace UMF.Unity.UI
+{
+	public class UIManager : TPrefabRootManagerBase<UIManager>
+	{
+		[Header( "[UIManager]" )]
+		public Camera m_UICamera;
+		public Canvas m_UIRootCanvas;
+	}
+}

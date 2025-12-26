@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WorldModuleConfig RefreshTimeout="10" Enabled="true" MaintenanceText="" >
+	<DefaultText Maintenance="" Smooth="" Normal="" Busy="" />
+	<Data Order="1" WorldIDN="1" NameKey="" IsRecommend="false" IsNew="false" FixedStateKey="" SmoothCountMax="500" NormalCountMax="1000" BusyCountMax="2900" >
+		<Text Maintenance="" Smooth="" Normal="" Busy="" />
+	</Data>
+	<Data/>
+</WorldModuleConfig>

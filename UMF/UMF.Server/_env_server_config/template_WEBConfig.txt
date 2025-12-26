@@ -1,0 +1,24 @@
+﻿#####################
+# Web.WebConfig
+#####################
+# 웹사용 유무
+WebEnabled = true
+
+# 로그 타입 None,NameOnly,Detail,Always
+WebLogType = None
+
+# URL
+WebURL = 
+
+WebPoolSize = 40
+
+# RequestMethodType GET,POST,STOR
+MethodType = GET
+
+PostContentsType = 
+
+PostKey = 
+
+StorID = 
+
+StorPW = 

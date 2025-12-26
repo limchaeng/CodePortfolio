@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ServerConfig >
+	<Data ServerType="Game" InfoUpdateInterval="30" ConnectionKeyUpdateInterval="30" ConnectionKeySaveMaxCount="10" ConnectionKeyCheck="true" />
+	<Data ServerType="Contents" InfoUpdateInterval="30" ConnectionKeyUpdateInterval="30" ConnectionKeySaveMaxCount="10" ConnectionKeyCheck="true" />
+	<Data ServerType="Relay" InfoUpdateInterval="30" />
+</ServerConfig>

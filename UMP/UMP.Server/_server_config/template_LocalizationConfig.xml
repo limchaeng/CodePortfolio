@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LocalizationConfig DefaultLanguage="Korean" DefaultCulture="ko-kr" >
+	<Base AppIdentifier="" ReloginWhenLanguageChange="true" >
+		<Info Language="Korean" ShowName="한국어" Alias="" IconName="" FontName="" CultureCode="ko-kr"/>
+		<Info Language="English" ShowName="ENGLISH" Alias="" IconName="" FontName="" CultureCode="en-us"/>
+	</Base>
+	<Data AppIdentifier="editor" ReloginWhenLanguageChange="true" >
+		<Info Language="Korean" ShowName="한국어" Alias="" IconName="" FontName="" CultureCode="ko-kr"/>
+		<Info Language="English" ShowName="ENGLISH" Alias="" IconName="" FontName="" CultureCode="en-us"/>
+	</Data>
+	<FastUpdate>
+		<Condition ClientVer="0.0.0.0" AppIdentifier="" DevicePackage="">
+			<!-- 
+			<Data Key="CATEGORY_KEY" >
+				<Language Type="Korean">Korean update text data</Language>
+			</Data> 
+			-->
+		</Condition>
+	</FastUpdate>
+</LocalizationConfig>

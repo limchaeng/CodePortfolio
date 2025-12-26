@@ -1,0 +1,17 @@
+{
+    "name": "UMF.Unity",
+    "rootNamespace": "",
+    "references": [
+        "Unity.TextMeshPro",
+        "UMF.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

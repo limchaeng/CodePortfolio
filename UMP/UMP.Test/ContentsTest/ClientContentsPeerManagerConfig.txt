@@ -1,0 +1,58 @@
+﻿#####################
+# Listener
+#####################
+# Connector 와 Peer 간 연결정보에 포함되어 확인되는 문자
+VerifyString = UMPTEST
+
+# 해당서버의 클라이언트 내부 IDX 범위 : 서버별로 다르게 지정
+PeerIndexMin = 1
+PeerIndexMax = 100000000
+
+# CoreLogType None, NameOnly, Detail, Always
+CoreLogType = Detail
+
+# 멀티캐스트시로 보낼시 받는 유저 IP 로그
+LogMulticastId = true
+
+# eCheckEmptyHandlerType Log, Exception, Manual
+# 패킷핸들러가 없을때 발생하는 오류 타입
+CheckEmptyHandler = Exception
+
+BindHost = localhost
+
+# 바인딩시 모든 IP(IPv6) 허용
+BindIPAny = true
+
+# 바인딩포트 범위지어. '-' 없을시 단일 포트 지정
+BindPort = 5300
+
+PingTime = 5
+
+PingCheckTime = 30
+
+SendBufferSize = 4096
+
+RecvBufferSize = 4096
+
+HeartbeatTime = 60
+
+HeartbeatFirstTime = 30
+
+IsHeartbeatLog = false
+
+# 데이터 수신시 한번에 처리하는 패킷 수
+RecvLimit = 5
+
+AcceptLimit = 300
+
+# 패킷 암호화
+UseEncrypt = true
+
+# Datetime 패킷타입을 binary 로 사용하지 않고 double 형식으로 사용
+UseConvertDatetime = false
+
+# Datetim 패킷타입 쓰기시 타임존 무시 : UseConvertDatetime = false 일때 사용됨
+IgnoreTimeZone = true
+
+# 패킷의 프로토콜 버전 사용
+UseProtocolVersion = true
